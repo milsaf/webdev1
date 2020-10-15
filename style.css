@@ -1,0 +1,30 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background: black;
+    display: flex;
+    height: 600px;
+  }
+  
+  .bar {
+    background: #222422;
+    border-radius: 50px;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+    height: 50px;
+    width: 500px;
+  }
+  
+  .fill {
+    animation: load 20s forwards;
+    border-radius: 100px;
+    background: #ff66b3;
+    height: 40px;
+    width: 40px;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
