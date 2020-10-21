@@ -1,13 +1,19 @@
-h1{
-    color:red;
-    font-size: 5vw;
-}
-@media only screen and (max-width: 800px) {
-    h1{
-        color: magenta;
-    }
+.box {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    
+    background-color:pink;
+    transition-property: background-color, left;
+    transition-duration: 1s, 3s;
+    transition-timing-function: linear;
+  }
+  
+  .box:hover {
+    background-color: #348feb;
+    left: 400px;
+    position: inline;
+  }
 
-    body{
-        background-color: blue;
-    }
-}
+  
