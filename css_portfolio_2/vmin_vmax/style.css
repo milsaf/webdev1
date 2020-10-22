@@ -1,8 +1,19 @@
-h1 {
-    color: rgb(243, 21, 195); 
-    font-size: 30vmin;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 1000;
-    text-align: center;
-  }
+div {
+  margin: 20px;
+}
+
+.vmax{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: lightcoral;
+  width: 90vmax;
+  height: 90vmax;
+}
+
+.vmin{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: lightseagreen;
+  width: 50vmin;
+  height: 50vmin;
+}
+
   
