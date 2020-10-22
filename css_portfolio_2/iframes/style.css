@@ -1,13 +1,4 @@
 h1{
-    color:red;
-    font-size: 5vw;
+    color: darkorchid
 }
-@media only screen and (max-width: 800px) {
-    h1{
-        color: magenta;
-    }
 
-    body{
-        background-color: blue;
-    }
-}
