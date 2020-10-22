@@ -1,16 +1,21 @@
+html{
+  font-family: 'Grenze Gotisch', cursive;
+  font-weight: 800;
+}
+
+
 div {
   margin: 20px;
 }
 
 .vmax{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
   background: lightcoral;
   width: 90vmax;
   height: 90vmax;
 }
 
 .vmin{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background: lightseagreen;
   width: 50vmin;
   height: 50vmin;
