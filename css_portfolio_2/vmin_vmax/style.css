@@ -1,13 +1,8 @@
-h1{
-    color:red;
-    font-size: 5vw;
-}
-@media only screen and (max-width: 800px) {
-    h1{
-        color: magenta;
-    }
-
-    body{
-        background-color: blue;
-    }
-}
+h1 {
+    color: rgb(243, 21, 195); 
+    font-size: 30vmin;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+    text-align: center;
+  }
+  
