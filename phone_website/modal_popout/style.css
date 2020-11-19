@@ -6,9 +6,9 @@
   height: 100%;
   background-color: rgb(66, 223, 66));
   opacity: 0;
-  visibility: hidden;
-  transform: scale(1.1);
-  transition: visibility 0s linear 0.00s, opacity 0.25s 0s, transform 0.25s;
+  visibility:hidden;
+  transform:scale(1.1);
+  transition:visibility 0s linear 0.00s, opacity 0.25s 0s, transform 0.25s;
 }
 .modal-content {
   position: absolute;
@@ -20,7 +20,6 @@
   width: 24rem;
   border-radius: 0.5rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: large;
 }
 .close-button {
   float: right;
