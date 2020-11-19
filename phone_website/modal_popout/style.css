@@ -1,0 +1,43 @@
+.modal {
+  display: none;
+  position: fixed; 
+  padding-top: 100px;
+  left: 100; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: pink;
+  background-color:  rgb(230, 43, 173);
+}
+.modal-content {
+  position: relative; 
+  background-color: yellow;
+  padding: 100px; 
+  margin: auto; 
+  width: 75%;  
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.close-btn {
+  float: right; 
+  color: pink; 
+  font-size: 300px;  
+  font-weight: bold;
+}
+.close-btn:hover {
+  color: darkgray;
+}
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+p {
+  background-color: pink;
+}
