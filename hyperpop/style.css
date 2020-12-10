@@ -30,13 +30,16 @@
   padding: 10px; 
   height: 90px; 
   line-height: 30px; 
-  border: solid 1px green 
-  } 
+  border: solid 10px #0EDF0E ;
+  font-family: 'Bungee', cursive;
+  font-size: larger;
+
+  }   
   
   #box2 { 
    height: 15px; 
    padding: 8px; 
-   border: solid 1px blue;
+   border: solid 10px #FF66CC;
    font-size: 15px;
    word-spacing: 50px;
    text-align: center;
@@ -57,7 +60,7 @@
   } 
   
   #box8 { 
-   flex-grow: 1; 
+   flex-grow: 2; 
    border: solid 1px black;
 }
 img{
@@ -75,8 +78,6 @@ li{
  } 
 
  html {
-    font-size: large;
+color: white;
  }
         
- .crosshair {cursor: crosshair;} 
- 
