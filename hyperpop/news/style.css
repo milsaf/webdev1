@@ -1,7 +1,21 @@
-img{
-   align-items: center;
+body {
+    background-color:rgb(0,0,0);
+    background-image:url(http://www.zingerbugimages.com/backgrounds/rainbow_stars2.gif);
+    background-position: top left;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+
+.news-logo img {
+    
+}
+
+.tweet-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .twitter-tweet {
-   display: flex;
-} 
+    margin: 1em;
+}
