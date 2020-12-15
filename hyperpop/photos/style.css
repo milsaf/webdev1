@@ -1,70 +1,34 @@
-img{
-    width: 400px;
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item{
+    width:300px;
+    text-align:center;
+    display: block;
+    background:linear-gradient(to right, red, orange, yellow, green, blue, purple,#ffccff );
+    border: 1px solid transparent;
+    margin-right: 20px;
+    margin-bottom: 100px;
     
+   
+  }
 
-}
-
-.frax{
-    width: 400px;
-    margin: 10%;
-    padding: 5px;
-  position: relative;
-  background: linear-gradient(to right, red, yellow, green, blue,purple);
   
-}
-
-
- .alice{
-    margin-left: 60%;
-    margin: 60%;
-    margin-top: -40%;
-    background: linear-gradient(to right, rgb(26, 216, 26), purple);
-    padding: 5px;
-}
-
-
- .bean{
-     margin: 10%;
-     margin-top: -60%;
-    background: linear-gradient(to right,  rgb(243, 81, 208), orange);
-    padding: 5px;
-}
- 
-
- .laura{
-     margin: 10%;
-     margin-top: -40%;
-     margin-left: 60%;
+  #index-gallery{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
     position: relative;
-    background: linear-gradient(to right,  blue, green); 
-    padding: 5px;
- }
+    padding: 3px;
+  }
 
- .alicegas{
-     margin: 10%;
-     position: relative;
-     background: linear-gradient(to right,  blue, green); 
-     padding: 5px;
- }
 
- .ecc{
-     margin:10%;
-     margin-top: -85%;
-     margin-right: 60%;
-     background: linear-gradient(to right,  blue, green); 
-     padding: 5px;
- }
+  img{
+      width: 300px;
+      
+  }
 
- .cm{
-     margin: 10%;
-     position: relative;
-     background: linear-gradient(to right,  blue, green); 
-     padding: 5px;
- }
-
- .gupi{
-     margin:10%;
-     position: relative;
-     background: linear-gradient(to right,  blue, green); 
-     padding: 5px;
- }
+  
