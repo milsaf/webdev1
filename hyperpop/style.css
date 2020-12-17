@@ -18,6 +18,7 @@ justify-items: center;}
     width: 100vw; 
     display: flex; 
     flex-direction: column; 
+    justify-items: center;
     
    } 
 
@@ -31,9 +32,9 @@ justify-items: center;}
    } 
 
   .middle-column div { 
-    flex-grow: 1; 
+      flex-grow: 1; 
     margin: 10 8px; 
-    border: solid 5px red; 
+    border: solid 20px red; 
     
    } 
   
@@ -71,13 +72,18 @@ justify-items: center;}
   
   #topsongs { 
    flex-grow: 2; 
-   border: solid 2px orange; 
+   border: solid 5px #FA9D03; 
    text-align: center;
+   font-size: 15px;
+   padding: 20px;
   } 
   
   #box8 { 
    flex-grow: 2; 
    border: solid 2px yellow;
+   text-align: center;
+   padding: 20px;
+   
 }
 img{
    max-width: 400px;
